@@ -104,12 +104,12 @@ section.resume-section {
     padding-bottom: 3rem !important; } }
 
 .bg-primary {
-  background-color: #82b2ba !important; } /* main color replace me */
+  background-color: #c28285 !important; } /* main color replace me */
 
 .text-primary {
-  color: #82b2ba !important; } /* main color replace me */
+  color: #c28285 !important; } /* main color replace me */
 
 a {
-  color: #82b2ba; } /* main color replace me */
+  color: #c28285; } /* main color replace me */
   a:hover, a:focus, a:active {
     color: #824027; }
