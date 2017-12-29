@@ -149,11 +149,17 @@
  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="videos">
         <div class="my-auto">
           <h2 class="mb-5">Videos</h2>
-
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/HnoWbBo5Dqo" height="315" width="560" allowfullscreen="" frameborder="0">
-    </iframe>
+          
+          <!-- 16:9 aspect ratio -->
+          <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HnoWbBo5Dqo"></iframe>
+          </div>
+
+          <!-- 4:3 aspect ratio -->
+          <div class="embed-responsive embed-responsive-4by3">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HnoWbBo5Dqo"></iframe>
+          </div>
 
         </div>
       </section>
