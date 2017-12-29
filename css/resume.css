@@ -113,3 +113,15 @@ a {
   color: #c28285; } /* main color replace me */
   a:hover, a:focus, a:active {
     color: #a34f53; }
+
+.responsiveCal {
+ 
+position: relative; padding-bottom: 75%; height: 0; overflow: hidden;
+ 
+}
+ 
+.responsiveCal iframe {
+ 
+position: absolute; top:0; left: 0; width: 100%; height: 100%;
+ 
+}
