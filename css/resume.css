@@ -161,33 +161,3 @@ a {
     height: 100%;
 }
 
-blockquote {
-border:none;
-margin-bottom:-30px;
-}
-
-blockquote h3 {
-    font-size:21px;
-}
-
-blockquote h3:before { 
-    content: open-quote;
-    font-weight: bold;
-    font-size:100px;
-    color:#889c0b;
-    position: absolute; 
-    top: 0;
-    left: 0; 
-} 
-blockquote h3:after { 
-    content: close-quote;
-    font-weight: bold;
-    font-size:100px;
-    color:#889c0b;
-    bottom: 0; 
-    right: 0;
-}
-
-blockquote{
-    position: relative; 
-}
